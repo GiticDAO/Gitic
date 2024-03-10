@@ -592,6 +592,7 @@ margin-top: 100px;
 @media (max-width:768px) {
     .flex-container3 {
         flex-direction: column;
+        padding: 0px 10px;
     }
 
     
@@ -795,7 +796,7 @@ margin-top: 100px;
 
 @media (max-width: 768px) {
     .supported-states-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
 
     .state-card {
