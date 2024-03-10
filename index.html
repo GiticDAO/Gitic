@@ -9,292 +9,209 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-
 <body>
    
 
 
 
-
-<section class="banner-cover">
+    <!--- NAV SECTION --->
+<section class="nav-cover">
     <!------Alerts------->
     <div class="alert">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
         <p class="tag rounded">
-            <svg id="edit-brightness" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-                <path id="Path_603" data-name="Path 603"
-                    d="M13,6a.75.75,0,0,1-.75-.75,1.5,1.5,0,0,0-1.5-1.5.75.75,0,0,1,0-1.5,1.5,1.5,0,0,0,1.5-1.5.75.75,0,0,1,1.5,0,1.5,1.5,0,0,0,1.5,1.5.75.75,0,0,1,0,1.5,1.5,1.5,0,0,0-1.5,1.5A.75.75,0,0,1,13,6Z"
-                    fill="var(--light)" />
-                <path id="Path_604" data-name="Path 604"
-                    d="M6,16a1,1,0,0,1-1-1,4,4,0,0,0-4-4A1,1,0,1,1,1,9,4,4,0,0,0,5,5,1,1,0,0,1,7,5a4,4,0,0,0,4,4,1,1,0,0,1,0,2,4,4,0,0,0-4,4,1,1,0,0,1-1,1Z"
-                    fill="var(--light)" />
-            </svg>
-            Vote Starts On: 20 March 2024
-        </p>
+        <svg id="edit-brightness" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+          <path id="Path_603" data-name="Path 603"
+            d="M13,6a.75.75,0,0,1-.75-.75,1.5,1.5,0,0,0-1.5-1.5.75.75,0,0,1,0-1.5,1.5,1.5,0,0,0,1.5-1.5.75.75,0,0,1,1.5,0,1.5,1.5,0,0,0,1.5,1.5.75.75,0,0,1,0,1.5,1.5,1.5,0,0,0-1.5,1.5A.75.75,0,0,1,13,6Z"
+            fill="var(--light)"/>
+          <path id="Path_604" data-name="Path 604"
+            d="M6,16a1,1,0,0,1-1-1,4,4,0,0,0-4-4A1,1,0,1,1,1,9,4,4,0,0,0,5,5,1,1,0,0,1,7,5a4,4,0,0,0,4,4,1,1,0,0,1,0,2,4,4,0,0,0-4,4,1,1,0,0,1-1,1Z"
+            fill="var(--light)" />
+        </svg>
+        Voting opens on 25 March and closes on 5 April. <a href="#">&nearr;</a>
+      </p>
     </div>
     <!------/Alerts------>
-    <div class="nav-cover">
-        <span class="nav-img"><img
-                src="https://github.com/giticnetwork/frontend/blob/7e5b5430a89aeff1f9d7a427820f55d85bb26427/giticlogo.png"
-                width="30" height="30"></span>
-
-
-        <button class="menu" onclick="openNav()"></button>
-
-
-        <div id="myNav" class="overlay">
-            <a href="#home" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-                <a href="#grantpaper" onclick="closeNav()">Read Grantpaper</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
-</section>
-
-
-
-
-
-
-
-
-<!-- HERO SECTION -->
-<section class="hero">
-    <div class="container">
-        <h1>Where
-            <span href="#" class="typewrite" data-period="2000" data-type='["Ethereum", "Solana", "Cardano"]'><span
-                    class="wrap"></span><br />&nbsp;
-            </span>State<br /> Unite for Decentralized Empowerment.
-        </h1>
-
-
-        <div class="btn">
-            <svg viewBox="0 0 99 21" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                    <g class="arrow" transform="translate(-905.000000, -1052.000000)" stroke="var(--gitic-whitecolor)">
-                        <g transform="translate(906.500000, 1054.000000)">
-                            <line x1="0.5" y1="8.5" x2="90.5" y2="8.5" stroke-width="3" stroke-linecap="square"></line>
-                            <polyline stroke-width="4" points="81.165778 0 93.665778 8.5 81.165778 17"></polyline>
-                        </g>
-                    </g>
-                </g>
-            </svg>
-        </div>
-        <a href="#notice-two" class="explorer">Grantpaper</a>
-    </div>
-</section>
-<!-- /HERO SECTION -->
-
-
-
-
-<!-- EXPLORE -->
-
-<div class="row">
-
-    <div class="column">
-        <div class="card" id="internet">
-            <div>
-                <div class="icon-cover">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                        <defs>
-                            <clipPath id="clippath">
-                                <path fill="#f5f5f5"
-                                    d="M270.96 98.42v103.17c0 11.3-6.03 21.74-15.81 27.38l-89.34 51.58a31.612 31.612 0 01-31.62 0l-89.35-51.58a31.631 31.631 0 01-15.81-27.38V98.42c0-11.3 6.03-21.74 15.81-27.38l89.35-51.58a31.612 31.612 0 0131.62 0l89.34 51.58a31.631 31.631 0 0115.81 27.38z">
-                                </path>
-                            </clipPath>
-                        </defs>
-                        <path fill="#f5f5f5"
-                            d="M270.96 98.42v103.17c0 11.3-6.03 21.74-15.81 27.38l-89.34 51.58a31.612 31.612 0 01-31.62 0l-89.35-51.58a31.631 31.631 0 01-15.81-27.38V98.42c0-11.3 6.03-21.74 15.81-27.38l89.35-51.58a31.612 31.612 0 0131.62 0l89.34 51.58a31.631 31.631 0 0115.81 27.38z">
-                        </path>
-                        <g clip-path="url(#clippath)">
-                            <path fill="#FFFFFF"
-                                d="M270.96 93.67v121.78c0 2.77-1.48 5.33-3.87 6.71l-105.47 60.89c-5.16 2.98-11.62-.75-11.62-6.71V154.62c0-2.77 1.48-5.32 3.87-6.71l105.47-60.96c5.16-2.98 11.62.74 11.62 6.71z"
-                                opacity="0.08"></path>
-                            <path fill="#252634"
-                                d="M150 154.61v121.76c0 5.95-6.44 9.67-11.59 6.69L32.9 222.14a7.723 7.723 0 01-3.86-6.69V93.63c0-5.95 6.44-9.67 11.6-6.69l105.51 60.98a7.723 7.723 0 013.86 6.69z"
-                                opacity="0.15"></path>
-                        </g>
-                    </svg>
-                </div>
-                Infrastructure
-            </div>
-            <p>
-                Gitic infrastructure refers to the foundational components and systems that support the Gitic ecosystem.
-                This includes the underlying technology, networks, protocols, and tools that enable Gitic's operations
-                and functionality. It encompasses the software, hardware, and network infrastructure necessary for
-                Gitic to function as a decentralized organization and platform for building projects on various
-                blockchain networks and AI.
-            </p>
+<div id="nav" class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+        <div class="nav-title">
+           <span><img src="https://cdn.ethancopping.com/codepen/Interactive%20Dual%20Hover%20Card/proxmox.png" width="30" height="30"></span>
         </div>
     </div>
+    <div class="nav-btn">
+        <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+    </div>
+    <div class="nav-links">
+        <a href="#systems">Systems</a>
+        <a href="#foundation">Foundation</a>
+        <a href="#states">States</a>
+         <a href="#faqs">Faqs</a>
+        <a href="#community">Community</a>
+    </div>
+    <!----- progress bar ---->
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+    <!--- progress bar ------>
+</div>
+</section>
+<!--- /NAV SECTION --->
 
-    <div class="column">
-        <div class="card" id="found">
-            <div>
-                <div class="icon-cover">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                        <path fill="#f5f5f5" d="M19.38 16.87H179.17V176.66H19.38z"></path>
-                        <path fill="var(--gitic-indianred)" d="M114.44 115.5H233.79V234.85H114.44z"></path>
-                    </svg>
-                </div>
-                Foundation
-            </div>
+
+
+
+
+
+
+
+      <section class="hero">
+        <div class="container">
+            <h1>Your Vote<span style="color: #007bff;">'</span>s Matters</h1>
             <p>
-                Foundation is an open organization composed of developers, innovators, enthusiasts,
-                and thinkers dedicated to building projects on various blockchain networks and AI. It serves
-                as a hub for collaboration, open-source development, and community-driven initiatives in the
-                technology space. The foundation aims to empower individuals to contribute to the decentralized
-                future by providing a platform for innovation and collaboration.
+             Shape the future of Gitic by choosing between Token and Tokenless 
+             governance systems by casting your vote on 25 March.
             </p>
+            <button class="btn" onclick="castVote()">Vote Now</button>
         </div>
+    </section>
+
+
+
+
+
+<div class="countdown-container">
+    <h1>Stay Tuned - 25 March!</h1>
+    <div id="countdown"></div>
+    <p>
+     Come and make your voice heard in the future of Gitic. Vote on 30th February 2024 for the governance system you believe in – Token System or Tokenless System. Your vote shapes the path of decentralized governance. Every vote counts!
+    </p>    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex-container3" id="systems">
+    <div class="flex-item-left3">
+        <h3>Token System</h3>
+        <p>Under a token system, Gitic would have its native token that is used for governance, voting, and other activities
+            within the network.</p>
+        <h4>Advantages</h4>
+        <ul>
+            <li>Clear tokenomics for governance and incentives</li>
+            <li>Direct control over the token supply and distribution</li>
+            <li>Can be used to incentivize participation</li>
+        </ul>
+        <h4>Disadvantages</h4>
+        <ul>
+            <li>Requires additional effort for management and distribution</li>
+            <li>May introduce regulatory complexities</li>
+            <li>Dependency on external market forces</li>
+        </ul>
+
+    </div>
+    <div class="flex-item-right3">
+        <h3>Tokenless System</h3>
+        <p>Under a tokenless system, Gitic would operate without its native token, using the native tokens of the underlying
+            blockchain networks for governance.</p>
+        <h4>Advantages:</h4>
+        <ul>
+            <li>Simplified governance without the need for a separate token</li>
+            <li>Less regulatory scrutiny compared to native tokens</li>
+            <li>Can leverage existing tokens and infrastructure</li>
+        </ul>
+        <h4>Disadvantages:</h4>
+        <ul>
+            <li>Less control over governance mechanisms</li>
+            <li>Dependency on external blockchain networks</li>
+            <li>Potential interoperability issues</li>
+        </ul>
+
     </div>
 </div>
-<!-- /EXPLORE -->
 
 
 
 
 
+<section class="foundation" id="foundation">
+        <div class="container">
+            <h1>Gitic<span style="color: #007bff;">'</span>s Foundation</h1>
+            <p>
+            An open decentralized organization comprised of developers,
+         innovators, investors, builders, and other contributors. Our mission is to collaboratively
+          build open-source projects on various blockchain networks. We are open to all individuals
+           who wish to join and contribute based on their expertise, with the goal of creating a better
+            decentralized future by tight different technologies with power of decentralization.
+            </p>
+            <a  id="states" href="#" class="btn">Join Foundation</a>
+        </div>
+    </section>
 
 
-<!-- Disover -->
-<section class="discover">
-    <div class="content">
-        <h1>Explore More About Gitic’s <span style="color: var(--primaryColor);">Foundation</span> Concepts</h1>
-        <p>
-            <a href="#foundation">
-                Join Foundation
-            </a>
-        </p>
+
+
+
+    <section class="supported-states-section">
+    <h2 class="supported-states-header">Gitic<span style="color: #007bff;">'</span>s States</h2>
+    <div class="supported-states-grid">
+        <div class="state-card">Ethereum</div>
+        <div class="state-card">Solana</div>
+        <div class="state-card">Cardano</div>
+        <div class="state-card">Binance</div>
+        <div class="state-card">Avalanche</div>
+        <div class="state-card">Polkadot</div>
+         <div class="state-card">Algorand</div>
+        <div class="state-card">Cosmos</div>
+        <div class="state-card">Tezos</div>
+        <div class="state-card">Terra</div>
+        <div class="state-card">Flow</div>
+        <div class="state-card">Fantom</div>
+         <div class="state-card">Harmony</div>
+        <div class="state-card">Kusama</div>
+        <div class="state-card">Near</div>
+        <div class="state-card">Elrond</div>
+        <div class="state-card">Polygon</div>
+        <div class="state-card">Hedera</div>
+        <div class="state-card">Avalanche</div>
+        <div id="faqs" class="state-card">Tron</div>
+        <!-- Add more states here -->
+        <div class="state-card">Stacks</div>
+        <div class="state-card">Immutable</div>
+        <div class="state-card">Stellar</div>
+        <div class="state-card">Injective</div>
+        <div class="state-card">Sui</div>
+        <div class="state-card">Flare</div>
+         <div class="state-card">EOS</div>
+        <div class="state-card">NEO</div>
+        <div class="state-card">Oasis</div>
+        <div class="state-card">IOTA</div>
+        <div class="state-card">Astra</div>
+        <div class="state-card">Holo</div>
+         <div class="state-card">Casper</div>
+        <div class="state-card">Waves</div>
+        <div class="state-card">Lisk</div>
+        <div class="state-card">Aptos</div>
+        <div class="state-card">Vechain</div>
+        <div class="state-card">Theta</div>
+        <div class="state-card">Ronin</div>
+        <div id="faqs" class="state-card">Qtum</div>
     </div>
 </section>
-<!-- /Disover -->
 
-
-
-
-
-
-
-
-
-
- <!--------COUNTDOWN------->
-    <section class="countdown-section">
-        <div class="countdown-timer">
-            <div class="countdown-item">
-                <span class="countdown-number" id="days"></span><br />
-                <span class="countdown-label">days</span>
-            </div>
-            <div class="countdown-item">
-                <span class="countdown-number" id="hours"></span><br />
-                <span class="countdown-label">hours</span>
-            </div>
-            <div class="countdown-item">
-                <span class="countdown-number" id="minutes"></span><br />
-                <span class="countdown-label">minutes</span>
-            </div>
-            <div class="countdown-item">
-                <span class="countdown-number" id="seconds"></span><br />
-                <span class="countdown-label">seconds</span>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-    <!-- Disover -->
-    <section class="sticky-inner">
-        <div class="content">
-            <h1>Your <span style="color: var(--primaryColor);">Voice</span> Matters!</h1>
-            <p>
-                Come and make your voice heard in the future of Gitic. Vote on <i
-                    style="background-color: var(--primaryColor); color: var(--gitic-indianred); padding: 0px 10px;">20 March
-                    2024</i> for the
-                governance system you believe in – Token System or Tokenless System. Your vote shapes
-                the path of decentralized governance. Every vote counts!
-            </p>
-    </section>
-    <!-- /Disover -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="flex-container3">
-        <div class="flex-item-left3">
-    
-            <h3>Token System</h3>
-            <p>Under a token system, Gitic would have its native token that is used for governance, voting, and other
-                activities
-                within the network.</p>
-            <h4>Advantages</h4>
-            <ul>
-                <li>Clear tokenomics for governance and incentives</li>
-                <li>Direct control over the token supply and distribution</li>
-                <li>Can be used to incentivize participation</li>
-            </ul>
-            <h4>Disadvantages</h4>
-            <ul>
-                <li>Requires additional effort for management and distribution</li>
-                <li>May introduce regulatory complexities</li>
-                <li>Dependency on external market forces</li>
-            </ul>
-    
-        </div>
-        <div class="flex-item-right3">
-    
-            <h3>Tokenless System</h3>
-            <p>Under a tokenless system, Gitic would operate without its native token, using the native tokens of the
-                underlying
-                blockchain networks for governance.</p>
-            <h4>Advantages</h4>
-            <ul>
-                <li>Simplified governance without the need for a separate token</li>
-                <li>Less regulatory scrutiny compared to native tokens</li>
-                <li>Can leverage existing tokens and infrastructure</li>
-            </ul>
-            <h4>Disadvantages</h4>
-            <ul>
-                <li>Less control over governance mechanisms</li>
-                <li>Dependency on external blockchain networks</li>
-                <li>Potential interoperability issues</li>
-            </ul>
-    
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-    
 
 
 
@@ -302,7 +219,7 @@
 <!-- Programs -->
 <section class="programs">
     <div class="content">
-        <h1>FAQ<span style="color: var(--gitic-indianred);">s</span></h1>
+        <h1>FAQ<span style="color: #007bff;">s</span></h1>
     </div>
 </section>
 
@@ -310,7 +227,7 @@
     <details class="accordion">
         <summary class="accordion-header">
             <div class="accordion-header-content">
-                <h2 class="accordion-header-content-title">What's a Gitic Governance?</h2>
+                <h2 class="accordion-header-content-title">What's a Gitic?</h2>
             </div>
         </summary>
         <div class="accordion-content">
@@ -329,7 +246,7 @@
     <details class="accordion">
         <summary class="accordion-header">
             <div class="accordion-header-content">
-                <h2 class="accordion-header-content-title">What's a Gitic Smart Contract Constitution?</h2>
+                <h2 class="accordion-header-content-title">Smart Constitution?</h2>
             </div>
         </summary>
         <div class="accordion-content">
@@ -349,7 +266,7 @@
     <details class="accordion">
         <summary class="accordion-header">
             <div class="accordion-header-content">
-                <h2 class="accordion-header-content-title">What's a Gitic States?</h2>
+                <h2 class="accordion-header-content-title">Gitic States?</h2>
             </div>
         </summary>
         <div class="accordion-content">
@@ -369,7 +286,7 @@
     <details class="accordion">
         <summary class="accordion-header">
             <div class="accordion-header-content">
-                <h2 class="accordion-header-content-title">What's a Gitic Citizenship?</h2>
+                <h2 class="accordion-header-content-title"> Gitic Citizenship?</h2>
             </div>
         </summary>
         <div class="accordion-content">
@@ -388,7 +305,7 @@
     <details class="accordion">
         <summary class="accordion-header">
             <div class="accordion-header-content">
-                <h2 class="accordion-header-content-title">What's a Gitic Yearly Budget?</h2>
+                <h2 class="accordion-header-content-title">Gitic Yearly Budget?</h2>
             </div>
         </summary>
         <div class="accordion-content">
@@ -491,39 +408,52 @@
 
 
 
-    <footer>
+
+
+
+
+<div class="get-involved">
+    <h2 class="involved-header">Get Involved</h2>
+    <p class="involved-subtext">Spread the word and encourage others to vote. Every vote counts!</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="community">
         <div class="social-icons">
-            <a href="https://twitter.com/giticnetwork" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="var(--violetredColor)"
-                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path
-                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
-                </svg>
+            <a href="#" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
             </a>
             <a href="#" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path
-                        d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
-                </svg>
-            </a>
-            <a href="https://t.me.com/giticnetworks" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path
-                        d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg>
             </a>
             <a href="#" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path
-                        d="M373 138.6c-25.2 0-46.3-17.5-51.9-41l0 0c-30.6 4.3-54.2 30.7-54.2 62.4l0 .2c47.4 1.8 90.6 15.1 124.9 36.3c12.6-9.7 28.4-15.5 45.5-15.5c41.3 0 74.7 33.4 74.7 74.7c0 29.8-17.4 55.5-42.7 67.5c-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4C17.6 311.5 0 285.7 0 255.7c0-41.3 33.4-74.7 74.7-74.7c17.2 0 33 5.8 45.7 15.6c34-21.1 76.8-34.4 123.7-36.4l0-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3zM157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1s36.6-9.8 37.8-36.9s-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1c1.2 27.1 16.9 36.9 37.8 36.9s39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1c-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9 .4-6.4 4.5-4.9 8.1c12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4z" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z"/></svg>
+            </a>
+            <a href="#" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M524.5 69.8a1.5 1.5 0 0 0 -.8-.7A485.1 485.1 0 0 0 404.1 32a1.8 1.8 0 0 0 -1.9 .9 337.5 337.5 0 0 0 -14.9 30.6 447.8 447.8 0 0 0 -134.4 0 309.5 309.5 0 0 0 -15.1-30.6 1.9 1.9 0 0 0 -1.9-.9A483.7 483.7 0 0 0 116.1 69.1a1.7 1.7 0 0 0 -.8 .7C39.1 183.7 18.2 294.7 28.4 404.4a2 2 0 0 0 .8 1.4A487.7 487.7 0 0 0 176 479.9a1.9 1.9 0 0 0 2.1-.7A348.2 348.2 0 0 0 208.1 430.4a1.9 1.9 0 0 0 -1-2.6 321.2 321.2 0 0 1 -45.9-21.9 1.9 1.9 0 0 1 -.2-3.1c3.1-2.3 6.2-4.7 9.1-7.1a1.8 1.8 0 0 1 1.9-.3c96.2 43.9 200.4 43.9 295.5 0a1.8 1.8 0 0 1 1.9 .2c2.9 2.4 6 4.9 9.1 7.2a1.9 1.9 0 0 1 -.2 3.1 301.4 301.4 0 0 1 -45.9 21.8 1.9 1.9 0 0 0 -1 2.6 391.1 391.1 0 0 0 30 48.8 1.9 1.9 0 0 0 2.1 .7A486 486 0 0 0 610.7 405.7a1.9 1.9 0 0 0 .8-1.4C623.7 277.6 590.9 167.5 524.5 69.8zM222.5 337.6c-29 0-52.8-26.6-52.8-59.2S193.1 219.1 222.5 219.1c29.7 0 53.3 26.8 52.8 59.2C275.3 311 251.9 337.6 222.5 337.6zm195.4 0c-29 0-52.8-26.6-52.8-59.2S388.4 219.1 417.9 219.1c29.7 0 53.3 26.8 52.8 59.2C470.7 311 447.5 337.6 417.9 337.6z"/></svg>
+            </a>
+            <a href="#" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M373 138.6c-25.2 0-46.3-17.5-51.9-41l0 0c-30.6 4.3-54.2 30.7-54.2 62.4l0 .2c47.4 1.8 90.6 15.1 124.9 36.3c12.6-9.7 28.4-15.5 45.5-15.5c41.3 0 74.7 33.4 74.7 74.7c0 29.8-17.4 55.5-42.7 67.5c-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4C17.6 311.5 0 285.7 0 255.7c0-41.3 33.4-74.7 74.7-74.7c17.2 0 33 5.8 45.7 15.6c34-21.1 76.8-34.4 123.7-36.4l0-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3zM157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1s36.6-9.8 37.8-36.9s-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1c1.2 27.1 16.9 36.9 37.8 36.9s39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1c-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9 .4-6.4 4.5-4.9 8.1c12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4z"/></svg>
+            </a>
+            <a href="#" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
             </a>
         </div>
         <p class="copyright">&copy; 2024 Gitic Foundation Copyright</p>
     </footer>
+
 
    
 
