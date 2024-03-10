@@ -184,7 +184,7 @@ a:focus {
         position: absolute;
         display: block;
         width: 100%;
-        background: var(--bs-black-background);
+        background: #ffffff;
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
