@@ -773,6 +773,10 @@ margin-top: 100px;
 }
 
 @media (max-width: 768px) {
+   .supported-states-section {
+    padding: 0px 10px;
+}
+
   .supported-states-header {
     font-size: 35px;
 }  
