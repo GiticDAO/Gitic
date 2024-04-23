@@ -531,7 +531,7 @@ a:focus {
 
     .flex-about .flex-item-left img {
         text-align: center;
-        width: 500px;
+        width: 300px;
         height: auto;
     }
 
@@ -680,7 +680,7 @@ a:focus {
 
 @media (max-width: 768px) {
     .supported-states-grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
 
         .state-card {
