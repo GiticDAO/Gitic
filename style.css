@@ -531,7 +531,7 @@ a:focus {
 
     .flex-about .flex-item-left img {
         text-align: center;
-        width: 200px;
+        width: 300px;
         height: auto;
     }
 
@@ -684,7 +684,7 @@ a:focus {
     }
 
         .state-card {
-            font-size: 22px;
+            font-size: 18px;
         }
 }
 
