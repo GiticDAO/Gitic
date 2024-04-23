@@ -522,7 +522,7 @@ a:focus {
     .flex-about {
         flex-direction: column;
         margin-top: 30px;
-        padding: 50px 20px;
+        padding: 50px 0px;
     }
 
     .flex-about {
@@ -531,7 +531,7 @@ a:focus {
 
     .flex-about .flex-item-left img {
         text-align: center;
-        width: 300px;
+        width: 200px;
         height: auto;
     }
 
