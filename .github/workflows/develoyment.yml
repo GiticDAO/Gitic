@@ -1,0 +1,37 @@
+name: Manual Deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'production'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Your deployment steps here
+      - name: Deploy to Production
+        run: |
+          echo "Deploying to production..."
+
+      # Update deployment status
+      - name: Update Deployment Status
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.repos.createDeploymentStatus({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              deployment_id: ${{ github.run_id }},
+              state: 'success',
+              environment_url: 'https://your-deployment-url.com',
+              description: 'Deployment to production completed successfully.'
+            })
