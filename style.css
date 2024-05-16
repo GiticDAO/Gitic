@@ -325,24 +325,25 @@
 
     .hero .container {
     padding: 0px 10px;
-    max-width: 900px;
+    max-width: 1000px;
 }
 
     .hero .container h1 {
         font-size: 35px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     .hero .container p {
         font-size: 17px;
         padding: 0px 0px;
+        max-width: 1000px;
     }
 
     .hero .container .btn {
         font-size: 17px;
         display: inline-block;
         width: 100%;
-        padding: 11px;
+        padding: 11px 0px;
         border-radius: 8px;
         margin: 5px 0px;
     }
