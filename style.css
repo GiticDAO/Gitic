@@ -277,17 +277,16 @@
 .hero {
     width: 100%;
     text-align: center;
-    margin-top: 50px;
 }
 
 .hero .container {
-    padding: 180px 30px;
+    padding: 150px 30px;
     max-width: 1200px;
 }
 
 .hero .container h1 {
     color: var(--gitic-whitecolor);
-    font-size: 80px;
+    font-size: 90px;
     text-transform: transparent;
     font-family: var(--gitic-fonthead);
     font-weight: 1000;
