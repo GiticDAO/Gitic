@@ -319,9 +319,14 @@
 @media (max-width: 768px) {
     .hero {
         text-align: center;
-        max-width: 908px;
+        max-width: 768px;
         padding: 50px 10px;
     }
+
+    .hero .container {
+    padding: 0px 10px;
+    max-width: 900px;
+}
 
     .hero .container h1 {
         font-size: 35px;
